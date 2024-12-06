@@ -106,7 +106,7 @@ const openJobInfo = (jobId: string) => {
         </ul>
       </section> -->
 
-      <section class="mb-8">
+      <!-- <section class="mb-8">
         <h3 class="text-lg mb-2">Recent Activities</h3>
         <div class="border border-white p-4 h-40 overflow-y-auto">
           <p v-for="job in jobs" :key="job.id">
@@ -115,7 +115,7 @@ const openJobInfo = (jobId: string) => {
           </p>
           <p v-if="jobs.length === 0" class="text-gray-400">No recent activities</p>
         </div>
-      </section>
+      </section> -->
 
       <section class="mb-8">
         <div class="flex justify-between items-center mb-4">
